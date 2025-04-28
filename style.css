@@ -53,4 +53,27 @@ body {
     padding: 20px;
     font-size: 14px;
   }
-  
+  nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #4CAF50;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
